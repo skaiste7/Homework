@@ -1,0 +1,17 @@
+Project Specific Configuration - Containing project specific configuration parameters that differ from the standard.
+
+=== Section: Data Generation ===
+- Order Profile:
+ordersPerHour:		1500		//Number of Orders per Hour
+orderLinesPerOrder:	20			//Number of Order-Lines per Order
+
+
+=== Section: System Config ===
+- Power Supply:
+powerSupply:		random			//System Power Supply (normal/big)
+
+
+=== Section: Shuttle System ===
+- Structure:
+numberOfAisles:		8			//The number of shuttle aisles in the system
+
